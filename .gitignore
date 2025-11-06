@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+.ipynb_convert
+*.ipynb**
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Envs
+.venv/
+.env/
+
+# Data (keep repo lean)
+data/
+notebooks/data/
+*.nc
+*.grib
+*.tif
