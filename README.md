@@ -50,6 +50,30 @@
 
 > Visuals above: community map (ecological pattern) and permutation importance (drivers).
 
+ ## Data Sources
+
+All environmental and biological data used in this project are open-access.
+
+- **Fish occurrence data:**  
+  [OBIS – Ocean Biodiversity Information System](https://obis.org/) (accessed via the OBIS API).  
+  Records were filtered for *Actinopterygii* (ray-finned fishes) within the Bay of Biscay polygon.
+
+- **Sea surface temperature (SST):**  
+  [HadISST1 dataset](https://www.metoffice.gov.uk/hadobs/hadisst/) (Hadley Centre, UK Met Office).  
+  Monthly SST fields extracted for 2015–2020.
+
+- **Chlorophyll concentration (CHL):**  
+  [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).  
+  Near-surface chlorophyll-a data, aggregated to monthly means.
+
+- **Bathymetry:**  
+  [GEBCO 2020 Gridded Bathymetry](https://www.gebco.net/data_and_products/gridded_bathymetry_data/).
+
+- **Distance to coast:**  
+  Computed internally from the GEBCO coastline using Euclidean distance in projected space.
+
+All raw datasets are **excluded from the repository** (`data/` folder is git-ignored) but can be retrieved from the original sources above.
+
 ## Reproducibility
 - **Environment**
   ```bash
