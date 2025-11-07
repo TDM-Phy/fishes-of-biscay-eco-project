@@ -1,5 +1,13 @@
 # Fishes of the Bay of Biscay — Community Modelling
 
+*A portfolio project combining marine ecology and spatial machine learning (K-Means + spatially blocked Random Forest) to understand fish community patterns in the Bay of Biscay.*
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20pipeline-ff9f00)
+![License](https://img.shields.io/badge/License-MIT-informational)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-brightgreen)
+
 **Ecology × ML portfolio project.** I built spatial–temporal–depth “cells”, derived a Hellinger-transformed community matrix, clustered **5 fish community types (C1–C5)** with K-Means, then trained a **spatially blocked Random Forest** to predict community type from environment.
 
 **Performance:** accuracy ≈ **0.39**, macro-F1 **0.357** (↑ from 0.317 baseline).  
